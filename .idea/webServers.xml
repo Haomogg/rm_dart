@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d2efaeba-bb8f-4f9f-9b6d-ffdda4b347f8" name="dart">
+        <fileTransfer accessType="SFTP" host="192.168.100.2" port="22" sshConfigId="fecb1fbf-e91d-4c80-9222-81acbcf0088d" sshConfig="dynamicx@192.168.100.2:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

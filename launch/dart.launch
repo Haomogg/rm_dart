@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="dart_vision_manager" args="manager" output="screen"/>
+
+    <node pkg="nodelet" type="nodelet" name="rm_dart"
+          args="load rm_dart/dart_aim dart_vision_manager" output="screen">
+        <rosparam file="$(find rm_dart)/config/dart_coefficient.yaml" command="load"/>
+    </node>
+</launch>

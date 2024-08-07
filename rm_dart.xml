@@ -1,0 +1,9 @@
+<library path="lib/librm_dart">
+    <class name="rm_dart/dart_aim"
+           type="rm_dart::RmDartAim"
+           base_class_type="nodelet::Nodelet">
+        <description>
+            dart aim armor class
+        </description>
+    </class>
+</library>

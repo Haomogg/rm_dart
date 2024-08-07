@@ -1,0 +1,15 @@
+green_h_min: 35
+green_h_max: 77
+green_s_min: 43
+green_s_max: 255
+green_v_min: 46
+green_v_max: 255
+
+buffer_num: 5
+
+max_distance: 500
+
+binary_element: 7
+image_x_center: 853  # red:1140  blue: 858
+is_save: false
+is_open: true
